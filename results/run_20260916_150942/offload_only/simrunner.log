@@ -1,0 +1,12 @@
+[MODE] offload_only: all decisions must be offload; theta = 1.0
+Offload decisions written to /home/avi/NSSON_V02/logs/offloaddecisionlog.json
+Latency log written to /home/avi/NSSON_V02/logs/offloadlatencylog.csv
+Power log written to /home/avi/NSSON_V02/logs/offloadpowerlog.csv
+
+[OUTPUT] Runtime files:
+  [OK] /home/avi/NSSON_V02/logs/offloaddecisionlog.json (1978 bytes)
+  [OK] /home/avi/NSSON_V02/logs/offloadlatencylog.csv (1248 bytes)
+  [OK] /home/avi/NSSON_V02/logs/offloadpowerlog.csv (1521 bytes)
+
+[DONE] Mode 'offload_only' completed successfully.
+[DONE] Raw logs are stored in: /home/avi/NSSON_V02/logs

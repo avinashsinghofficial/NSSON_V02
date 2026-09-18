@@ -1,0 +1,14 @@
+[MODE] nsson_full: adaptive confidence policy plus QoS-aware SDN
+Offload decisions written to /home/avi/NSSON_V02/logs/offloaddecisionlog.json
+Latency log written to /home/avi/NSSON_V02/logs/offloadlatencylog.csv
+Power log written to /home/avi/NSSON_V02/logs/offloadpowerlog.csv
+Threshold log written to /home/avi/NSSON_V02/logs/thresholdlog.csv
+
+[OUTPUT] Runtime files:
+  [OK] /home/avi/NSSON_V02/logs/offloaddecisionlog.json (1940 bytes)
+  [OK] /home/avi/NSSON_V02/logs/offloadlatencylog.csv (1224 bytes)
+  [OK] /home/avi/NSSON_V02/logs/offloadpowerlog.csv (1509 bytes)
+  [OK] /home/avi/NSSON_V02/logs/thresholdlog.csv (861 bytes)
+
+[DONE] Mode 'nsson_full' completed successfully.
+[DONE] Raw logs are stored in: /home/avi/NSSON_V02/logs

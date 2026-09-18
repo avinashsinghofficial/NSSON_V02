@@ -1,0 +1,10 @@
+mode,load,slices,fulfilled_slices,sla_fulfillment_pct,mean_tcp_throughput_mbps
+baseline_sdn_iot,heavy,3,0.0,0.0,0.26233333333333336
+baseline_sdn_iot,light,3,1.0,33.333333333333336,5.59
+baseline_sdn_iot,moderate,3,0.0,0.0,2.2433333333333336
+priority_only,heavy,3,0.0,0.0,0.29716666666666663
+priority_only,light,3,1.0,33.333333333333336,5.24
+priority_only,moderate,3,0.0,0.0,2.1
+slicing_sla,heavy,3,3.0,100.0,9.245
+slicing_sla,light,3,3.0,100.0,8.836666666666666
+slicing_sla,moderate,3,3.0,100.0,9.22

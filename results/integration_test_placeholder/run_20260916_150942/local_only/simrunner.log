@@ -1,0 +1,12 @@
+[MODE] local_only: all decisions must be local; theta = 0.0
+Offload decisions written to /home/avi/NSSON_V02/logs/offloaddecisionlog.json
+Latency log written to /home/avi/NSSON_V02/logs/offloadlatencylog.csv
+Power log written to /home/avi/NSSON_V02/logs/offloadpowerlog.csv
+
+[OUTPUT] Runtime files:
+  [OK] /home/avi/NSSON_V02/logs/offloaddecisionlog.json (1938 bytes)
+  [OK] /home/avi/NSSON_V02/logs/offloadlatencylog.csv (1226 bytes)
+  [OK] /home/avi/NSSON_V02/logs/offloadpowerlog.csv (1509 bytes)
+
+[DONE] Mode 'local_only' completed successfully.
+[DONE] Raw logs are stored in: /home/avi/NSSON_V02/logs

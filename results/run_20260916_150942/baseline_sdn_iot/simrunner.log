@@ -1,0 +1,14 @@
+[MODE] baseline_sdn_iot: conventional static/best-effort SDN
+Offload decisions written to /home/avi/NSSON_V02/logs/offloaddecisionlog.json
+Latency log written to /home/avi/NSSON_V02/logs/offloadlatencylog.csv
+Power log written to /home/avi/NSSON_V02/logs/offloadpowerlog.csv
+Threshold log written to /home/avi/NSSON_V02/logs/thresholdlog.csv
+
+[OUTPUT] Runtime files:
+  [OK] /home/avi/NSSON_V02/logs/offloaddecisionlog.json (1999 bytes)
+  [OK] /home/avi/NSSON_V02/logs/offloadlatencylog.csv (1293 bytes)
+  [OK] /home/avi/NSSON_V02/logs/offloadpowerlog.csv (1570 bytes)
+  [OK] /home/avi/NSSON_V02/logs/thresholdlog.csv (924 bytes)
+
+[DONE] Mode 'baseline_sdn_iot' completed successfully.
+[DONE] Raw logs are stored in: /home/avi/NSSON_V02/logs

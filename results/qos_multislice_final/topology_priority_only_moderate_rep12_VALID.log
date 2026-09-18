@@ -1,0 +1,50 @@
+
+*** NSSON classic-iperf multi-slice experiment: mode=priority_only, load=moderate, rep=12
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(20.00Mbit 3.0ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(20.00Mbit 3.0ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+*** Configuring hosts
+qa qh qi qs qb1 qb2 
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(20.00Mbit 3.0ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(20.00Mbit 3.0ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+*** Waiting for OpenFlow handshakes
+*** UDP receiver ready: slice=autonomous, port=9090, log=/tmp/nsson_qosms_udp_server_autonomous.log
+*** UDP receiver ready: slice=healthcare, port=9091, log=/tmp/nsson_qosms_udp_server_healthcare.log
+*** UDP receiver ready: slice=industrial, port=9092, log=/tmp/nsson_qosms_udp_server_industrial.log
+*** Warming TCP inference services
+*** Running controlled UDP QoS probes before TCP workload
+*** Running UDP probe for autonomous
+*** Running UDP probe for healthcare
+*** Running UDP probe for industrial
+*** Starting concurrent TCP slices with 12 Mbit/s UDP background
+*** autonomous: TCP=2.100 Mbit/s; UDP=0.318 Mbit/s; jitter=0.026 ms; loss=0.00%; PDR=1.0000; tcp_valid=1; udp_valid=1; SLA_met=0
+*** healthcare: TCP=2.100 Mbit/s; UDP=0.265 Mbit/s; jitter=0.031 ms; loss=0.00%; PDR=1.0000; tcp_valid=1; udp_valid=1; SLA_met=0
+*** industrial: TCP=2.100 Mbit/s; UDP=0.213 Mbit/s; jitter=0.033 ms; loss=0.00%; PDR=1.0000; tcp_valid=1; udp_valid=1; SLA_met=0
+*** Saved: /home/avi/NSSON_V02/logs/qos_multislice_raw/multislice_priority_only_moderate_rep12.csv
+*** Saved: /home/avi/NSSON_V02/logs/qos_multislice_raw/multislice_priority_only_moderate_rep12.txt
+*** Stopping 1 controllers
+c0 
+*** Stopping 7 links
+.......
+*** Stopping 2 switches
+s1 s2 
+*** Stopping 6 hosts
+qa qh qi qs qb1 qb2 
+*** Done

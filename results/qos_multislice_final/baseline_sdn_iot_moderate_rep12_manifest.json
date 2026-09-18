@@ -1,0 +1,11 @@
+{
+  "status": "valid",
+  "mode": "baseline_sdn_iot",
+  "load": "moderate",
+  "rep": 12,
+  "controller": "baseline_sdn_iot_controller.py",
+  "controller_port": 6633,
+  "tcp_metric": "median steady-state classic-iperf throughput; excludes first second and final two seconds",
+  "udp_metric": "controlled UDP probe before long TCP/background workload",
+  "validation": "three required slices; valid TCP and UDP measurements; non-NaN metrics"
+}

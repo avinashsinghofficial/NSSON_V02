@@ -1,0 +1,60 @@
+
+*** NSSON classic-iperf multi-slice experiment: mode=slicing_sla, load=heavy, rep=13
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(20.00Mbit 3.0ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(20.00Mbit 3.0ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+*** Configuring hosts
+qa qh qi qs qb1 qb2 
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(20.00Mbit 3.0ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(100.00Mbit 1ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+(20.00Mbit 3.0ms delay) *** Error: Warning: sch_htb: quantum of class 50001 is big. Consider r2q change.
+*** Waiting for OpenFlow handshakes
+1ac94d4e-8547-45e0-a524-ea80dfbf1df5
+b46b2a56-be20-4dc0-b128-b79ab4d83559
+6babfaaf-b8d0-4227-8c4d-c8644453dda8
+f2b094da-6ce5-43c6-986d-bc9c4193ac26
+dded11d2-5f07-4caa-8638-4222cd1f4bc3
+f6ecb224-2c36-4573-a3f1-d72f0db4e284
+a79c42c2-b7ad-4f5d-9c67-b267f9ee35f8
+a61f56cd-0254-4dac-9898-f6a47df15b20
+342e7c0f-9bcf-4a26-944a-aec2b58e0e0e
+ebd2f64d-fe12-4565-9849-a7ad0e76944c
+*** UDP receiver ready: slice=autonomous, port=9090, log=/tmp/nsson_qosms_udp_server_autonomous.log
+*** UDP receiver ready: slice=healthcare, port=9091, log=/tmp/nsson_qosms_udp_server_healthcare.log
+*** UDP receiver ready: slice=industrial, port=9092, log=/tmp/nsson_qosms_udp_server_industrial.log
+*** Warming TCP inference services
+*** Running controlled UDP QoS probes before TCP workload
+*** Running UDP probe for autonomous
+*** Running UDP probe for healthcare
+*** Running UDP probe for industrial
+*** Starting concurrent TCP slices with 19 Mbit/s UDP background
+*** autonomous: TCP=10.000 Mbit/s; UDP=0.318 Mbit/s; jitter=0.007 ms; loss=0.00%; PDR=1.0000; tcp_valid=1; udp_valid=1; SLA_met=1
+*** healthcare: TCP=12.000 Mbit/s; UDP=0.265 Mbit/s; jitter=0.008 ms; loss=0.00%; PDR=1.0000; tcp_valid=1; udp_valid=1; SLA_met=1
+*** industrial: TCP=5.735 Mbit/s; UDP=0.213 Mbit/s; jitter=0.005 ms; loss=0.00%; PDR=1.0000; tcp_valid=1; udp_valid=1; SLA_met=1
+*** Saved: /home/avi/NSSON_V02/logs/qos_multislice_raw/multislice_slicing_sla_heavy_rep13.csv
+*** Saved: /home/avi/NSSON_V02/logs/qos_multislice_raw/multislice_slicing_sla_heavy_rep13.txt
+*** Stopping 1 controllers
+c0 
+*** Stopping 7 links
+.......
+*** Stopping 2 switches
+s1 s2 
+*** Stopping 6 hosts
+qa qh qi qs qb1 qb2 
+*** Done

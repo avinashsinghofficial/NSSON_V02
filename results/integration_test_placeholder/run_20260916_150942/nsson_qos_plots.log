@@ -1,0 +1,23 @@
+/home/avi/NSSON_V02/nsson_qos_plots.py:138: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  sla_lat = qos.groupby(["mode", "slice"])["sla_met_latency"].mean().reset_index()
+/home/avi/NSSON_V02/nsson_qos_plots.py:146: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  sla_pdr = qos.groupby(["mode", "slice"])["sla_met_pdr"].mean().reset_index()
+/home/avi/NSSON_V02/nsson_qos_plots.py:181: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for mode, group in qos.groupby("mode"):
+/home/avi/NSSON_V02/nsson_qos_plots.py:192: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for mode, group in qos.groupby("mode"):
+Saved /home/avi/NSSON_V02/plots_qos/01_offload_ratio_vs_cycle_all_modes.png
+Saved /home/avi/NSSON_V02/plots_qos/02_latency_vs_cycle_all_modes.png
+Saved /home/avi/NSSON_V02/plots_qos/03_power_vs_cycle_all_modes.png
+Saved /home/avi/NSSON_V02/plots_qos/04_threshold_vs_cycle_all_modes.png
+Saved /home/avi/NSSON_V02/plots_qos/05_latency_box_per_mode.png
+Saved /home/avi/NSSON_V02/plots_qos/06_power_box_per_mode.png
+Saved /home/avi/NSSON_V02/plots_qos/07_qos_latency_vs_cycle_baseline_vs_nsson.png
+Saved /home/avi/NSSON_V02/plots_qos/08_qos_pdr_vs_cycle_baseline_vs_nsson.png
+Saved /home/avi/NSSON_V02/plots_qos/09_qos_drop_vs_cycle_baseline_vs_nsson.png
+Saved /home/avi/NSSON_V02/plots_qos/10_qos_overhead_vs_cycle_baseline_vs_nsson.png
+Saved /home/avi/NSSON_V02/plots_qos/11_qos_throughput_vs_cycle_baseline_vs_nsson.png
+Saved /home/avi/NSSON_V02/plots_qos/12_sla_latency_compliance_slice_mode.png
+Saved /home/avi/NSSON_V02/plots_qos/13_sla_pdr_compliance_slice_mode.png
+Saved /home/avi/NSSON_V02/plots_qos/16_latency_ecdf_per_mode.png
+Saved /home/avi/NSSON_V02/plots_qos/17_jitter_ecdf_per_mode.png

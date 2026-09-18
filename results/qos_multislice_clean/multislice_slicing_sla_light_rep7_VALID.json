@@ -1,0 +1,16 @@
+{
+  "run_status": "valid",
+  "mode": "slicing_sla",
+  "load": "light",
+  "rep": 7,
+  "controller": "nsson_multislice_sla_controller.py",
+  "topology": "qa,qh,qi,qb1--s1--s2--qs,qb2",
+  "controller_port": 6633,
+  "udp_measurement_order": "before_long_tcp_background_workload",
+  "slice_policy": {
+    "autonomous": {"priority": 400, "queue_id": 1},
+    "healthcare": {"priority": 300, "queue_id": 2},
+    "industrial": {"priority": 200, "queue_id": 3}
+  },
+  "validation_rule": "tcp_valid_measurement=1 and udp_valid_measurement=1 for all three slices"
+}
